@@ -40,18 +40,26 @@ work:
     details:
       - date: "May 2022"
         position: "Software engineer"
-        description: "Some description"
-      - date: "June 2022"
-        position: "Different Position"
-        description: "Different Description"
-  - company: "Some other company"
+        description: "Microsoft defender for Outlook"
+  - company: "Red Hat inc"
     details:
-      - date: "October 2020"
-        position: "Your position"
-        description: "Some description"
-      - date: "June 2020"
-        position: "Different Position"
-        description: "Different Description"
+      - date: "May 2021"
+        position: "Intern"
+        description: "Red Hat openshift Data Science"
+   
+  - company: "Google Summer of COde: AOSSIE"
+    details:
+      - date: "May 2022"
+        position: "Mentor"
+        description: "Peer to Peer messaging application"  
+      - date: "May 2021"
+        position: "Software developer"
+        description: "Peer to Peer messaging application"
+  - company: "National Informatics center"
+    details:
+      - date: "May 2020"
+        position: "Intern"
+        description: "Blockchain"
 
 # Projects
 # Note: The <style> in Work is somehow also applied to Projects! So no need to apply again in the file
