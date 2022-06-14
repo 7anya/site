@@ -1,7 +1,7 @@
 # Site settings
-title: Dimension
-email: youremailaddress@gmail.com
-description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
+title: Tanya Prasad
+email: tanya.prasad@gmail.com
+description: Final Year undergrad at BITS Pilani. 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
@@ -18,15 +18,15 @@ remote_theme: andrewbanchich/dimension-jekyll-theme
 # Social settings
 facebook_url:
 github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+gitlab_url: https://gitlab.com/7anya
+googleplus_url: 
 instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url: https://www.linkedin.com/in/tanya-prasad
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
-blog_url: https://rutvora.blogspot.com
-youtube_url: https://www.youtube.com/channel/UCLaHH4xiZZADIYZ-SwTtY2w
+twitter_url: 
+blog_url: https://one-to-tan.blogspot.com
+youtube_url:
 
 # Build settings
 markdown: kramdown
@@ -36,10 +36,10 @@ style: compressed
 
 # Work Timeline
 work:
-  - company: "Some company"
+  - company: "Microsoft"
     details:
-      - date: "October 2022"
-        position: "Your position"
+      - date: "May 2022"
+        position: "Software engineer"
         description: "Some description"
       - date: "June 2022"
         position: "Different Position"
