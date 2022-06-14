@@ -3,7 +3,7 @@ title: Rut Vora
 email: contactme@rutvora.com
 description: Incoming MS Computer Science Student at the University of British Columbia, Vancouver.  
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://rutvora.com" # the base hostname & protocol for your site
 author: Rut Vora
 street_address: 
 city: 
