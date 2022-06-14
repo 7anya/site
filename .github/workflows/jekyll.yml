@@ -10,13 +10,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Build Jekyll
-        # You may pin to the exact commit or the version.
-        # uses: jerryjvl/jekyll-build-action@0bab4194a14ea47ae5ca609fc5b95aaadab40060
-        uses: jerryjvl/jekyll-build-action@v1
+    - uses: actions/checkout@v3
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
         
-      - name: Jekyll Action
-        # You may pin to the exact commit or the version.
-        # uses: lemonarc/jekyll-action@2d5e5a2316cd9d4b74ad33da527d6d9be5bff8d1
-        uses: lemonarc/jekyll-action@1.0.0
-        
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        # Artifact name
+        name: site # optional, default is artifact
+        # A file, directory or wildcard pattern that describes what to upload
+        path: ${{ github.workspace }}/_site
+        # The desired behavior if no files are found using the provided path.
