@@ -17,7 +17,7 @@ remote_theme: andrewbanchich/dimension-jekyll-theme
 
 # Social settings
 facebook_url:
-github_url:
+github_url: https://github.com/7anya
 gitlab_url: https://gitlab.com/7anya
 googleplus_url: 
 instagram_url:
@@ -36,6 +36,16 @@ style: compressed
 
 # Work Timeline
 work:
+  - company: "University of British Columbia, Vancouver"
+    details:
+      - date: "July 2022"
+        position: "Visiting international research student"
+        description: "UBC computer science, Systopia lab - Undergrad thesis"
+  - company: "University of British Columbia, Vancouver"
+    details:
+      - date: "July 2022"
+        position: "MITACS GRI intern"
+        description: "UBC computer science, Systopia lab"
   - company: "Microsoft"
     details:
       - date: "May 2022"
